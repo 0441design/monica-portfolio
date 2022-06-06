@@ -120,21 +120,21 @@ import {
 } from '@heroicons/vue/outline'
 
 const navigation = [
-  { name: 'Resume', href: encodeURIComponent('projects/Mashock resume - certified technical writer'), icon: ClipboardListIcon, current: true, download: 'Monica Resume.doc' },
-  { name: 'Technical Writing Certificate - BC', href: encodeURIComponent('projects/Technical Writing Certificate - BC.pdf'), icon: DocumentIcon, current: true },
-  { name: 'Technical Writing Certificate - MIPT', href: encodeURIComponent('projects/Technical Writing Certificate - MIPT.pdf'), icon: DocumentIcon, current: true },
+  { name: 'Resume', href: 'projects/' + encodeURIComponent('Mashock resume - certified technical writer.doc'), icon: ClipboardListIcon, current: true, download: 'Monica Resume.doc' },
+  { name: 'Technical Writing Certificate - BC', href: 'projects/' + encodeURIComponent('Technical Writing Certificate - BC.pdf'), icon: DocumentIcon, current: true },
+  { name: 'Technical Writing Certificate - MIPT', href: 'projects/' + encodeURIComponent('Technical Writing Certificate - MIPT.pdf'), icon: DocumentIcon, current: true },
 ]
 const projects = [
-  { name: 'Ankylosaurus', href: encodeURIComponent('projects/Ankylosaurus.pdf'), icon: DownloadIcon, current: true },
-  { name: 'Basics of Oil Painting', href: encodeURIComponent('projects/Basics of Oil Painting.pdf'), icon: DownloadIcon, current: true },
-  { name: 'Decontamination Procedures', href: encodeURIComponent('projects/Decontamination Procedures.pdf'), icon: DownloadIcon, current: true },
-  { name: 'Festigram API Documentation', href: encodeURIComponent('projects/Festigram API Documentation.pdf'), icon: DownloadIcon, current: true },
-  { name: 'Festigram Patch Notes V2.05', href: encodeURIComponent('projects/Festigram Patch Notes V2.05.pdf'), icon: DownloadIcon, current: true },
-  { name: 'Heuristic Evaluation of Coursera Help Systems', href: encodeURIComponent('projects/Heuristic Evaluation of Coursera Help Systems.pdf'), icon: DownloadIcon, current: true },
-  { name: 'How to Create a Razer Synapse Macro', href: encodeURIComponent('projects/How to Create a Razer Synapse Macro.pdf'), icon: DownloadIcon, current: true },
-  { name: 'How to Make a Thought Record', href: encodeURIComponent('projects/How to Make a Thought Record.pdf'), icon: DownloadIcon, current: true },
-  { name: 'How to Run the Festigram API Locally', href: encodeURIComponent('projects/How to Run the Festigram API Locally.pdf'), icon: DownloadIcon, current: true },
-  { name: 'Partial-Page Rendering and AJAX', href: encodeURIComponent('projects/Partial-Page Rendering and AJAX.pdf'), icon: DownloadIcon, current: true },
+  { name: 'Ankylosaurus', href: 'projects/' + encodeURIComponent('Ankylosaurus.pdf'), icon: DownloadIcon, current: true },
+  { name: 'Basics of Oil Painting', href: 'projects/' + encodeURIComponent('Basics of Oil Painting.pdf'), icon: DownloadIcon, current: true },
+  { name: 'Decontamination Procedures', href: 'projects/' + encodeURIComponent('Decontamination Procedures.pdf'), icon: DownloadIcon, current: true },
+  { name: 'Festigram API Documentation', href: 'projects/' + encodeURIComponent('Festigram API Documentation.pdf'), icon: DownloadIcon, current: true },
+  { name: 'Festigram Patch Notes V2.05', href: 'projects/' + encodeURIComponent('Festigram Patch Notes V2.05.pdf'), icon: DownloadIcon, current: true },
+  { name: 'Heuristic Evaluation of Coursera Help Systems', href: 'projects/' + encodeURIComponent('Heuristic Evaluation of Coursera Help Systems.pdf'), icon: DownloadIcon, current: true },
+  { name: 'How to Create a Razer Synapse Macro', href: 'projects/' + encodeURIComponent('How to Create a Razer Synapse Macro.pdf'), icon: DownloadIcon, current: true },
+  { name: 'How to Make a Thought Record', href: 'projects/' + encodeURIComponent('How to Make a Thought Record.pdf'), icon: DownloadIcon, current: true },
+  { name: 'How to Run the Festigram API Locally', href: 'projects/' + encodeURIComponent('How to Run the Festigram API Locally.pdf'), icon: DownloadIcon, current: true },
+  { name: 'Partial-Page Rendering and AJAX', href: 'projects/' + encodeURIComponent('Partial-Page Rendering and AJAX.pdf'), icon: DownloadIcon, current: true },
 
 ]
 
